@@ -1,0 +1,58 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 3fr 2f;
+}
+
+.tanger {
+  grid-column-start: 3 span;
+  grid-row: 2;
+}
+.tangerplage {
+  grid-column-start: 3 span;
+}
+.atlas {
+  grid-column-start: 2 span;
+}
+.berbere {
+  width: 200px;
+  height: 200px;
+  grid-column-start: 1 span;
+}
+.casa {
+  width: 300px;
+  height: 170px;
+  grid-column-start: 3 span;
+}
+.toubkal {
+  grid-column-start: 2 span;
+}
+.figuig {
+  width: 400px;
+  height: 240px;
+}
+.jbala {
+  width: 200px;
+  height: 300px;
+}
+.epice {
+  width: 400px;
+  height: 250px;
+}
+.ifni {
+  width: 380px;
+  height: 240px;
+}
+
+.marrakech {
+  width: 300px;
+  height: 170px;
+}
+.jemaelfna {
+  width: 300px;
+  height: 170px;
+}
+.desert {
+  width: 300px;
+  height: 150px;
+}

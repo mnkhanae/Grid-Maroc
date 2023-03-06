@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Oswald:wght@300&family=Poppins&display=swap");
+
+.container {
+  width: 400px;
+  height: 350px;
+  border: 5px solid rgb(22, 119, 66);
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.green-cube {
+  border: 5px solid green;
+  color: green;
+}
+
+.red-cube {
+  border: 5px solid rgb(241, 62, 62);
+  color: rgb(241, 62, 62);
+}
+
+.blue-cube {
+  border: 5px solid rgb(42, 42, 122);
+  color: rgb(42, 42, 122);
+}
+
+.cube {
+  font-size: 3rem;
+  font-family: "Comic Neue", cursive;
+  padding: 20px;
+  border-radius: 22px;
+}
+
+.cube-container {
+  text-align: center;
+  margin-top: 50px;
+}

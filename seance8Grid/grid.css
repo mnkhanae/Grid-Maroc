@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 10px;
+  row-gap: 5px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+span {
+  border: 1px dashed pink;
+  border-radius: 15px;
+  background-color: rgb(206, 156, 164);
+  padding: 20px;
+}
+.one-third {
+  grid-column-start: span 4;
+}
+.one-half {
+  grid-column-start: span 6;
+}
+.one-fourth {
+  grid-column-start: span 3;
+}
+.one-sixth {
+  grid-column-start: span 2;
+}
+.two-third {
+  grid-column-start: span 8;
+}

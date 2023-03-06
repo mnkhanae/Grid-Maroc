@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 2fr 3fr;
+  width: 50%;
+  gap: 15px;
+  height: 350px;
+  width: 550px;
+}
+body {
+  background: linear-gradient(
+    rgb(107, 107, 219),
+    rgb(11, 11, 80),
+    rgb(146, 146, 219)
+  );
+  height: 700px;
+}
+p {
+  background-color: yellow;
+  border: 5px solid rgb(150, 150, 4);
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  color: rgb(59, 59, 59);
+}
